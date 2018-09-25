@@ -1,0 +1,122 @@
+/*ANIRON FONT - TITRES*/
+@font-face {
+	font-family: 'aniron';
+	src: url(anirm___.ttf);
+}
+@font-face {
+	font-family: 'aniron';
+	font-style: bold;
+	src: url(anirb___.ttf);
+}
+
+h2, .nav-link {
+	font-family: 'aniron', Arial, sans-serif;
+	font-style: bold;
+}
+
+.aniron, td {
+	font-family: 'aniron', Arial, sans-serif;
+}
+
+/*PARTY FONT*/
+@font-face {
+	font-family: 'party';
+	src: url('partybusiness.ttf');
+}
+
+h1, h3, h4, h5, h6, label, .party {
+	font-family: 'party', Arial, sans-serif;
+}
+
+/* symbols*/
+@font-face {
+	font-family: 'symbols';
+	src: url(tngan.ttf);
+}
+.symbols {
+	font-family: 'symbols', Arial, sans-serif;
+}
+/* SIZE*/
+.big {
+	font-size: 5em;
+}
+.medium {
+	font-size: 4em;
+}
+.small {
+	font-size: 3em;
+}
+.smaller {
+	font-size: 2em;
+}
+.smallest {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+/*FIN FONTS*/
+
+.nav-item:hover .pills{
+	border-bottom: 5px solid #ff671b;
+}
+
+.nav-item:hover .menu{
+	border-bottom: 5px solid white;
+}
+
+.orangebg {
+	background-color: #ff671b!important;
+}
+
+.orangetxt {
+	color: #ff671b!important;
+}
+
+.deepgrey {
+	background-color: #1b1b1b;
+}
+
+.greybg {
+	background-color: #eeeeee;
+}
+
+.greyout {
+	opacity: 0.5;
+}
+
+.opacity{
+	position: relative;
+}
+
+.card:hover .opacity {
+  	opacity: 1;
+}
+.hide{
+	background: rgba(0, 0, 0, .5);
+}
+
+.opacity:hover .hide {
+	display: none;
+}
+
+.reward {
+	background-color: rgba(255, 255, 255, .8);
+	max-width: 70%
+	text-align: center;
+}
+
+.cardtitle {
+	position: absolute;
+	top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'party';
+}
+.gimli {
+	text-align: center;
+}
