@@ -9,12 +9,12 @@
 	src: url(anirb___.ttf);
 }
 
-h2, .nav-link {
+.nav-link {
 	font-family: 'aniron', Arial, sans-serif;
 	font-style: bold;
 }
 
-.aniron, td {
+h3, .aniron, td {
 	font-family: 'aniron', Arial, sans-serif;
 }
 
@@ -24,39 +24,65 @@ h2, .nav-link {
 	src: url('partybusiness.ttf');
 }
 
-h1, h3, h4, h5, h6, label, .party {
+h1, h2, h4, h5, h6, label, .party {
 	font-family: 'party', Arial, sans-serif;
 }
 
 /* symbols*/
+
 @font-face {
 	font-family: 'symbols';
-	src: url(tngan.ttf);
+	font-style: italic;
+	src: url(tngani.ttf);
 }
 .symbols {
 	font-family: 'symbols', Arial, sans-serif;
+	vertical-align: middle;
 }
 /* SIZE*/
-.big {
+h2 {
 	font-size: 5em;
 }
-.medium {
-	font-size: 4em;
+h4 {
+	font-size: 2.5em;
 }
-.small {
-	font-size: 3em;
-}
-.smaller {
+h5 {
 	font-size: 2em;
 }
-.smallest {
-	font-size: 1.5em;
-}
+@media screen and (max-width: 1200px){
+	h2 {
+		font-size: 4rem;
+	}
+	h4 {
+		font-size: 2rem;
+	}	
 
-h3 {
-	font-size: 2em;
 }
-/*FIN FONTS*/
+@media screen and (max-width: 970px){
+	h2 {
+		font-size: 3rem;
+	}
+	h4 {
+		font-size: 1.5rem;
+	}	
+
+}
+@media screen and (max-width: 750px){
+	h2 {
+		font-size: 2rem;
+	}	
+	h4 {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 500px){
+	h2 {
+		font-size: 1.5rem;
+	}	
+	h4 {
+		font-size: 1rem;
+	}
+}
 
 .nav-item:hover .pills{
 	border-bottom: 5px solid #ff671b;
@@ -64,6 +90,21 @@ h3 {
 
 .nav-item:hover .menu{
 	border-bottom: 5px solid white;
+}
+.carousel-caption {
+	text-align: left;
+	bottom: 20%;
+}
+
+.carousel-control-next {
+	width: 5%;
+}
+.carousel-control-prev {
+	width: 5%;
+}
+
+.control-prev {
+	width: 5%;
 }
 
 .orangebg {
@@ -119,4 +160,8 @@ h3 {
 }
 .gimli {
 	text-align: center;
+}
+
+.card.bottom {
+	border-bottom:2px solid orangetxt;
 }
